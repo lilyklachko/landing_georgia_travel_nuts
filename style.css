@@ -251,14 +251,15 @@ h2:after {
 }
 .day1__images {
   display: flex;
-  flex-wrap: nowrap;
-  overflow: auto;
+  flex-wrap: wrap;
+
+  /* 
   height: 300px;
-  width: 100%;
+  width: 50%; */
 }
 .day1__images img {
   height: 400px;
-  /* width: 100%; */
+  width: 50%;
   object-fit: cover;
   margin-bottom: -50px;
 }
